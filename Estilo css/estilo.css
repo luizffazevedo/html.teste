@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background: #ccc;
+}
+
+.inicio{
+    background-image: url(../imagens/bg-3.jpg);
+    background-position: right center;
+    height: 500px;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.menuinicio{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.menuinicio p {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+.inicio h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 3px 3px 5px #333;
+}
+main{
+    margin: auto;
+    width: 80%;
+}
+.content-section{
+    background-color:white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}   
+
+
+footer{
+    height: 80px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background: ccc;
+    line-height: 80px;
+}
+
+
+li{
+    list-style-type: none;
+    display:inline-block;
+    border: 1px solid white ;
+    margin-left: 7px;
+    
+}
+ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+a:hover{
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.card {
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    
+}
+.card img{
+    width: 100%;
+    display: block;
+    
+}
+.card1,.card2{
+    margin-right: 2%;
+
+}
+
+.card p{
+    background-color: rgb(75, 72, 72);
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
